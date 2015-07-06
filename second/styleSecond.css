@@ -1,0 +1,59 @@
+body {
+	background-color: #bdbd9d;
+}
+.topBox {
+	height: 300px;
+	width: 800px;
+	margin: 30px 30px 30px 30px;
+	background-color: white;
+}
+.textBox {
+	width: 770px;
+	height: 150px;
+	margin: 30px 15px 15px 15px;
+}
+p {
+	font-family: Verdana;
+	font-size: 18px;
+	color: #5e5e4e;
+}
+.blueButton {
+	display: inline-block;
+	height: 40px;
+	width: 100px;
+	background-color: blue;
+}
+.redButton {
+	display: inline-block;
+	height: 40px;
+	width: 100px;
+	background-color: red;
+}
+#blue {
+	color: white;
+	font-family: Verdana;
+	text-align: center;
+}
+#red {
+	color: white;
+	font-family: Verdana;
+	text-align: center;
+}
+.lowerBox {
+	height: 700px;
+	width: 800px;
+	margin: 30px 30px 30px 30px;
+	background-color: white;
+}
+.image{
+	background-color: gray;
+	width: 700px;
+	height: 400px;
+	margin: 25px 25px 25px 50px;
+}
+.txtBox {
+	width: 700px;
+	height: 300px;
+	margin: 25px 25px 25px 50px;
+
+}

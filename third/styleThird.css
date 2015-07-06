@@ -1,0 +1,79 @@
+body {
+	background-color: black;
+}
+.tbBox {
+	background-color: #353535;
+	height: 80px;
+	width: 1000px;
+}
+.box {
+	height: 40px;
+	width: 60px;
+	display: inline-block;
+	color: white;
+	margin: 30px 20px 20px 40px;
+	font-family: Verdana;
+	position: relative;
+	left: 20px;
+}
+.mainBox {
+	width: 1000px;
+	height: 1250px;
+	background-color: white;
+	position: relative;
+	bottom: 35px;
+}
+h2 {
+	font-size: 40px;
+	position: relative;
+	top: 50px;
+	left: 60px;
+	font-family: Verdana;
+	color: #353535;
+}
+.para {
+	font-size: 16px;
+	font-family: Verdana;
+	width: 400px;
+	height: 200px;
+	display: inline-block;
+	margin: 20px 20px 20px 60px;
+	position: relative;
+	color: #353535;
+}
+.paraOne {
+	bottom: 100px;
+}
+.pic {
+	width: 400px;
+	height: 325px;
+	background-color: gray;
+	display: inline-block;
+	position: relative;
+	left: 50px;
+	bottom: 10px;
+}
+.paraTwo {
+	bottom: 130px;
+}
+.paraThree {
+	bottom: 40px;
+	right: 10px;
+}
+.paraFour {
+	bottom: 160px;
+}
+.paraFive {
+	bottom: 70px;
+	right: 10px;
+}
+.paraSix {
+	bottom: 210px;
+}
+.paraSeven {
+	bottom: 240px;
+}
+.bottomBox {
+	position: relative;
+	bottom: 35px;
+}

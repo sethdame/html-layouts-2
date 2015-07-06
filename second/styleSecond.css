@@ -1,59 +1,94 @@
-body {
-	background-color: #bdbd9d;
+.mainBox {
+	background-color: #808080;
+	width: 1000px;
+	height: 1300px;
 }
 .topBox {
 	height: 300px;
 	width: 800px;
-	margin: 30px 30px 30px 30px;
+	position: relative;
+	top: 60px;
+	left: 100px;
 	background-color: white;
 }
 .textBox {
-	width: 770px;
+	width: 700px;
 	height: 150px;
-	margin: 30px 15px 15px 15px;
+	position: relative;
+	top: 30px;
+	left: 50px;
 }
 p {
 	font-family: Verdana;
 	font-size: 18px;
 	color: #5e5e4e;
 }
-.blueButton {
+.button {
 	display: inline-block;
-	height: 40px;
-	width: 100px;
+	height: 50px;
+	width: 120px;
+	position: relative;
+	top: 70px;
+}
+.blueButton {
 	background-color: blue;
+	left: 50px;
 }
 .redButton {
-	display: inline-block;
-	height: 40px;
-	width: 100px;
 	background-color: red;
+	left: 75px;
 }
-#blue {
+#button {
 	color: white;
 	font-family: Verdana;
 	text-align: center;
-}
-#red {
-	color: white;
-	font-family: Verdana;
-	text-align: center;
+	position: relative;
+	bottom: 8px;
 }
 .lowerBox {
 	height: 700px;
 	width: 800px;
-	margin: 30px 30px 30px 30px;
 	background-color: white;
+	position: relative;
+	left: 100px;
+	top: 100px;
 }
-.image{
-	background-color: gray;
-	width: 700px;
-	height: 400px;
-	margin: 25px 25px 25px 50px;
+img {
+	position: relative;
+	top: 50px;
+	left: 100px;
 }
 .txtBox {
 	width: 700px;
 	height: 300px;
-	margin: 25px 25px 25px 50px;
+	position: relative;
+	top: 50px;
+	left: 50px
+}
+.bottomBar {
+	width: 1000px;
+	height: 100px;
+	background-color: #353535;
+	position: relative;
+	top: 200px;
+}
+.big {
+	height: 40px;
+	width: 60px;
+	display: inline-block;
+	position: relative;
+	top: 40px;
+}
+.google {
+	left: 750px;
 
+}
+.apple {
+	left: 700px;
+}
+a {
+	text-decoration: none;
+	color: white;
+	font-family: Verdana;
+	font-size: 20px;
 }

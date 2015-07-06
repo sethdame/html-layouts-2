@@ -6,13 +6,17 @@ body {
 	height: 80px;
 	width: 1000px;
 }
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: Verdana;
+}
 .box {
 	height: 40px;
 	width: 60px;
 	display: inline-block;
-	color: white;
 	margin: 30px 20px 20px 40px;
-	font-family: Verdana;
 	position: relative;
 	left: 20px;
 }
